@@ -7,7 +7,7 @@ export default function SearchBox({ updateInfo, updateForecast }) {
     // API configs
     const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather";
     const FORECAST_API_URL = "https://api.openweathermap.org/data/2.5/forecast";
-    const API_KEY = "101dd271918c3b1e84d0d3e2f18420c8";
+    const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
     
     const [city, setCity] = useState('');
     const [error, setError] = useState(false);
