@@ -1,4 +1,15 @@
-.SearchBox{
+.SearchBox {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+}
+
+.SearchBox form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.SearchBox .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 0.75rem;
 }

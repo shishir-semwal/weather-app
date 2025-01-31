@@ -1,12 +1,12 @@
+import ThemeToggle from './ThemeToggle';
 import WeatherApp from "./WeatherApp";
 
 function App() {
- 
-  return(
- <WeatherApp/>
-  
-
-  )
+  return (
+    <ThemeToggle>
+      <WeatherApp />
+    </ThemeToggle>
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,25 @@
+.ForecastBox {
+    padding: 0.75rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.forecast-card {
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+}
+
+.forecast-card:hover {
+    transform: translateY(-3px);
+}
+
+.weather-image {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 80px !important;
+}
+
+.forecast-card:hover .weather-image {
+    transform: scale(1.05);
+}
